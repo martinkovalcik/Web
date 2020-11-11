@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face{
+	font-family:"SOFIAPROSOFTREGULAR";
+	src:url("../inc/1447083/7a55b9c9-872c-44cf-9634-f109c0fb3803.woff2") format("woff2"),url("../inc/1447083/b02f0f38-5fda-4bd3-94f3-a0232d8b59e5.woff") format("woff");
+}
+@font-face{
+	font-family:"SOFIAPROSOFTBOLD";
+	src:url("../inc/1447099/71dbe71e-6360-4302-a292-9ced6594bb84.woff2") format("woff2"),url("../inc/1447099/f29594b2-3545-4486-b795-53b44304f614.woff") format("woff");
+}
+@font-face{
+	font-family:"Bebas-Neue-Bold";
+	src:url("../inc/5814477/9e486beb-fddd-444c-97fe-d3a844f6dcdc.woff2") format("woff2"),url("../inc/5814477/5ef6975c-62c7-4336-a829-32560e69ec7f.woff") format("woff");
+}
+
+@media only screen and (min-width: 768px) {
+    .smallcookie {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .bigcookie {
+      display: none;
+    }
+  }
+
+
+
+
+.SOFIAPROSOFTBOLD {
+	font-family: 'SOFIAPROSOFTBOLD' !important;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.SOFIAPROSOFTREGULAR {
+	font-family: 'SOFIAPROSOFTREGULAR' !important;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.Bebas-Neue-Bold {
+	font-family: 'Bebas-Neue-Bold' !important;
+	font-style: normal;
+	font-weight: bold;
+}
