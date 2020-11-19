@@ -1,0 +1,94 @@
+*{
+    margin: 0;   
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.input-wrap {
+    display: flex;
+    margin-bottom: 0.5em;
+    flex-direction: row;
+    display: table-cell;
+    vertical-align: middle;
+    
+  }
+
+.input-label {
+    color: #848fa0;
+    margin-right: 0.75em;
+    font-weight: 900;
+  }
+
+  .name{
+    padding-right: 2.27px;
+}
+
+.input-field {
+    border: none;
+    margin: 0.5em 1em;
+    background-color: #edf0f7;
+    color: #404040;
+    border-radius: 5px;
+    padding: 1em;
+    width: 30em;
+  }
+
+.newsletter-label{
+    margin-left: 0.5em;
+}
+
+.visibility{
+    visibility: hidden;
+}
+
+.marginleft{
+    margin-left: 13.333px;
+}
+
+.buttoncontainer{
+    margin-top: 5vh;
+}
+
+.button {
+    background-color: #966fe9;
+    display: inline;
+    color: white;
+    padding: 0.9em 1.35em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+
+@media only screen and (max-width: 600px) {
+    .input-wrap {
+        display: flex;
+        margin-bottom: 0.5em;
+        flex-direction: column;
+  }
+  .input-label{
+    margin-left: 13.333px;
+  }
+  .visibility{
+      display: none;
+  }
+
+#button {
+    margin-left: 32%;
+  }
+
+}

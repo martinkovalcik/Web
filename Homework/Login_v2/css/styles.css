@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+  }
+  .signin {
+    display: flex;
+    flex-direction: column;
+  }
+  input:focus {
+    outline-color: #a1c9ee;
+  }
+  #password {
+    margin-top: -2px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid #e0e4ec;
+    padding: 1em;
+  }
+  #email {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #e0e4ec;
+    border-bottom: 0px;
+    padding: 1em;
+  }
+
+  .back{
+    color: #515cc9;
+  }
+
+  .top{
+    padding-top: 3px;
+  }
+
+  .remember-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    cursor: pointer;
+    margin-top: 0.5em;
+  }
+  
+  .button{
+    position: relative;
+    margin-top: 10px;
+    background-color: #515bd3;
+    color: white;
+    padding: 0.9em 1.35em;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+
+  .icon{
+    width: 22px;
+    height: 17px;
+    opacity: 0.3;
+    position: absolute;
+    left: 20;
+    top: 9;
+  }
+  

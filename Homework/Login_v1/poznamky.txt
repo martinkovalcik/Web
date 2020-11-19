@@ -1,0 +1,1 @@
+checkbox - ak by sa chcelo robiť podľa domácej úlohy, nemal by sa použivať type checkbox, ale museli by sme si ho vytvoriť manuálne.
