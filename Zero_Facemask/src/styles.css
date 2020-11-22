@@ -16,19 +16,6 @@
 	src:url("../inc/5814477/9e486beb-fddd-444c-97fe-d3a844f6dcdc.woff2") format("woff2"),url("../inc/5814477/5ef6975c-62c7-4336-a829-32560e69ec7f.woff") format("woff");
 }
 
-@media only screen and (min-width: 768px) {
-    .smallcookie {
-      display: none;
-    }
-  }
-  @media only screen and (max-width: 767px) {
-    .bigcookie {
-      display: none;
-    }
-  }
-
-
-
 .SOFIAPROSOFTBOLD {
 	font-family: 'SOFIAPROSOFTBOLD' !important;
 }
