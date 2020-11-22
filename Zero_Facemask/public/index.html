@@ -7,44 +7,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="/img/Favicon.png">
 </head>
-<body class="bg-gradient-to-b from-black via-black to-bgcolor ">
-
-  <script>
-
-    function myFunction() {
-      var x = document.getElementById("toogle");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-
-    function cookieFunction() {
-      var x = document.getElementById("cookie");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-
-    function cookiesmallFunction() {
-      var x = document.getElementById("cookie-small");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-    
-    </script>
-    
+<body class="bg-gradient-to-b from-black to-bgcolor md:bg-gradient-to-b md:from-black via-black md:to-bgcolor">
 
 
-
-
-    <div id="cookie-small" class="smallcookie">
+    <div id="cookie-small" class="smallcookie hidden">
 
       <div class="z-10 mx-5 fixed bottom-0 bg-black rounded-xl pt-12">
         <div class="mx-10">
@@ -68,7 +34,7 @@
         </div>
 
 
-        <div id="cookie" class="bigcookie">
+        <div id="cookie" class="bigcookie hidden">
         <div class="z-10 w-screen fixed bottom-0 bg-black rounded-xl flex">
           <div class="w-8/12 p-5 text-white flex justify-start">
             <h1 class="SOFIAPROSOFTREGULAR px-2 ml-40" style="font-weight: normal;">
@@ -102,28 +68,37 @@
 
 
 
-        <div class="mx-2 mt-5 sm:mx-headerMx "><!-- content wrapper -->
+        <div class="mx-4 mt-5 "><!-- content wrapper -->
 
 
-          <div class="bg-white rounded-xl flex justify-between p-3">  
-            <div class="">
+          <div class="bg-white rounded-xl flex justify-between items-center p-button">  
+
+            <div class="flex justify-start">
               <a href="">
-                <img class="sm:ml-2 mt-1" src="/img/Zero_Logo_Black.png" alt="">
+                <img class="ml-2" src="/img/Zero_Logo_Black.png" alt="">
               </a>
             </div>
-            <div class="flex justify-end sm:mr-2">
-                <div class="sm:mr-5">
-                <button onclick="myFunction()" class="uppercase SOFIAPROSOFTBOLD underline" >
-                    en
-                </button>
-                <button onclick="myFunction()" class="" >
-                        <svg class=" mr-2" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.6665 0.999349L5.99984 5.66602L1.33317 0.999349" stroke="#A7A7AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                </button>
+
+            <div class="flex justify-end mr-1">
+                <div class="mr-3 md:mr-6 flex items-center">
+                  <a href="#" class="flex mr-1 uppercase SOFIAPROSOFTBOLD underline text-header leading-header">
+                    EN
+
+                    
+                  </a>
+
+                  <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.6665 0.999349L5.99984 5.66602L1.33317 0.999349" stroke="#A7A7AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                                
+
             </div>   
-                <a href=""><h1 class="SOFIAPROSOFTBOLD underline ">For costumers</h1></a>
+                <a href="" class="SOFIAPROSOFTBOLD underline text-header leading-header">
+                  For costumers
+                </a>
             </div>
+
         </div>
 
         <div id="toogle" class="hidden">
@@ -136,27 +111,38 @@
         </div>
 
 
-
-
-        <main class="mt-32">
   
-          <div class="smallcookie">
-            <h3 class="text-white uppercase tracking-business xl:text-lg SOFIAPROSOFTREGULAR ml-2">Business</h3>
-            <div class="mt-20">
-              <h3 class="text-white uppercase Bebas-Neue-Bold text-phonemain SOFIAPROSOFTBOLD leading-none z-10 relative ml-2 mb-10">Get protection for your company</h3>
+
+        <main class="mt-business md:flex md:justify-between">
+  
+          <div class="md:w-6/12">
+            
+            <h3 class="text-white uppercase tracking-business text-header md:text-mediumbusiness leading-header SOFIAPROSOFTREGULAR font-bold inline-block">Business</h3>
+            <div class="mt-business-bot md:mt-mediumbusiness mb-protection h-protection md:w-mediumprotection">
+              <h3 class="text-white uppercase Bebas-Neue-Bold text-phonemain SOFIAPROSOFTBOLD leading-protection z-10">Get protection for your company</h3>
           </div>
 
           <div class="">
-            <p class="text-maincolor leading-9 xl:text-2xl text-lg SOFIAPROSOFTREGULAR" style="font-weight: normal;">In a typical business setting, Zero Facemasks have a return of investment within <strong class="text-checkbox" style="font-weight: normal;">5 days</strong> compared to disposable masks. </p>
-            <p class="text-maincolor leading-9 xl:text-2xl text-lg SOFIAPROSOFTREGULAR pt-8" style="font-weight: normal;">We provide you with up to 20 masks for a complimentary test period.</p>
+
+            <div class="hidden md:block relative md:top-fifty left-fifty z-minus">
+              <img class="max-w-screen-xl" src="/img/medium_main_photo.png" alt="">
+            </div>
+
+            <p class="md:hidden text-maincolor font-normal not-italic leading-maintext text-leadingtext SOFIAPROSOFTREGULAR">In a typical manufacturing industry setting, Zero Facemasks have a return of investment within  <strong class="text-checkbox" style="font-weight: normal;">5 days</strong> compared to disposable masks. </p>
+            <p class="hidden md:block text-maincolor font-normal not-italic leading-maintext text-leadingtext SOFIAPROSOFTREGULAR w-mediumprotection">Zero Facemask is a lightweight, reusable unisex face mask which is 100% Recyclable and MADE IN GERMANY.</p>
+
+            <p class="md:hidden text-maincolor font-normal not-italic leading-maintext text-leadingtext SOFIAPROSOFTREGULAR mt-leadingtextbetween">We provide you with up to 20 masks for a complimentary test period.</p>
+            <p class="hidden md:block text-maincolor font-normal not-italic leading-maintext text-leadingtext md:text-mediumleadingtext SOFIAPROSOFTREGULAR mt-leadingtextbetween w-mediumprotection">Zero Facemask aims to provide minimal barriers to communication and maximum comfort for long period wear.</p>
         </div>
+
+          </div>
 
         <div>
 
-          <form class="shadow-md rounded mt-10 pb-2 mb-4">
+          <form class="shadow-md rounded md:w-full md:pl-8 mt-10 md:mt-mediumfromtop pb-2 mb-betweencheckbox">
     
             <div class="mb-3 relative">
-              <input class="placeholder-opacitycolor text-opacityformtext Bebas-Neue-Bold bg-form border-form shadow appearance-none border rounded-sm w-full py-2 px-3 text-6xl leading-tight focus:outline-none focus:shadow-outline " type="text" placeholder="1.000">
+              <input class="placeholder-white text-opacityformtext Bebas-Neue-Bold bg-form border-form shadow appearance-none border rounded-sm w-full py-2 px-3 text-6xl leading-tight focus:outline-none focus:shadow-outline " type="text" placeholder="2.310">
               <div class="pointer-events-none absolute inset-y-0 left-0 pl-40 flex items-center SOFIAPROSOFTBOLD text-3xl pt-5 ">
                   <h1 class="text-opacitycolor SOFIAPROSOFTREGULAR">Pcs</h1>
                       
@@ -176,7 +162,7 @@
                     </div>
                 </div>
 
-              <select class="capitalize placeholder-opacitycolor pl-10 text-opacityformtext Bebas-Neue-Bold bg-form border-form shadow appearance-none border rounded-sm w-full py-2 px-3 text-base leading-tight focus:outline-none focus:shadow-outline ">
+              <select class="capitalize placeholder-opacitycolor pl-10 text-opacityformtext Bebas-Neue-Bold font-normal bg-form border-form shadow appearance-none border rounded-sm w-full py-2 md:py-3 px-3 text-base leading-tight focus:outline-none focus:shadow-outline ">
                 <option>Austria</option>
                 <option>Austria</option>
                 <option>austria</option>
@@ -188,51 +174,65 @@
 
           <div class="relative">
 
-            <div class="mb-20 ">
-              <input class=" placeholder-opacitycolor SOFIAPROSOFTREGULAR text-opacityformtext bg-form border-form shadow appearance-none border rounded-sm w-full py-2 px-3 text-base leading-tight focus:outline-none focus:shadow-outline " type="text" placeholder="Email address*">
+            <div class="mb-formularbottom ">
+              <input class=" placeholder-opacitycolor SOFIAPROSOFTREGULAR text-opacityformtext bg-form border-form shadow appearance-none border rounded-sm w-full py-2 md:py-3 px-3 text-base leading-tight focus:outline-none focus:shadow-outline " type="text" placeholder="Email address*">
             </div>
 
-            <div class="mb-6">
-              <h1 class="text-white SOFIAPROSOFTBOLD text-base">Personalization and extras</h1>
+            <div class="mb-leadingtextbetween">
+              <h1 class="inline text-white SOFIAPROSOFTBOLD text-base font-medium not-italic">Personalization and extras</h1>
             </div>
 
 
-            <div class="mb-4 border-1 ">
-              <label class="block text-gray-500 p-3 font-bold border-2 rounded border-checkboxopacity active:border-checkbox ">
-                <input class="mr-2 leading-tight" type="checkbox">
-                <span class="text-sm">
-                  Logo imprint 
-                </span>
-              </label>
-              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white mt-8"> 
-                  <svg width="551" height="24" viewBox="0 0 551 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M535.1 11.3994C535.046 11.385 534.999 11.3724 534.95 11.3616C534.732 11.3273 534.535 11.2113 534.399 11.0371C534.264 10.8629 534.199 10.6436 534.219 10.4237C534.236 10.1979 534.339 9.987 534.506 9.83459C534.674 9.68218 534.893 9.59987 535.12 9.60462C535.375 9.60462 535.633 9.62082 535.886 9.60462C536.385 9.56502 536.878 9.91065 536.873 10.5947C536.873 11.4012 536.873 12.2149 536.873 13.0142C536.873 13.8135 536.873 14.6145 536.873 15.4138C536.873 15.4696 536.873 15.5254 536.873 15.5939L537.035 15.6299C537.253 15.6695 537.448 15.7891 537.582 15.9651C537.717 16.1411 537.781 16.361 537.762 16.5816C537.742 16.8023 537.642 17.0078 537.479 17.1581C537.316 17.3083 537.103 17.3925 536.882 17.394C536.282 17.4036 535.682 17.4036 535.082 17.394C534.86 17.3969 534.645 17.3167 534.48 17.1692C534.314 17.0217 534.21 16.8176 534.187 16.597C534.165 16.3764 534.225 16.1554 534.358 15.9774C534.49 15.7994 534.684 15.6773 534.902 15.6353C534.956 15.6227 535.012 15.6137 535.082 15.5993V11.3994H535.1Z" fill="white"/>
-                      <path d="M534.512 7.79329C534.517 7.47697 534.646 7.17521 534.87 6.95252C535.095 6.72983 535.398 6.60387 535.714 6.60156C536.026 6.61047 536.322 6.7407 536.54 6.96459C536.757 7.18847 536.879 7.48835 536.879 7.80049C536.878 7.95592 536.847 8.10975 536.787 8.25317C536.728 8.39659 536.64 8.52681 536.53 8.63638C536.419 8.74596 536.289 8.83275 536.145 8.89179C536.001 8.95084 535.847 8.98099 535.692 8.98051C535.536 8.98004 535.382 8.94896 535.239 8.88904C535.096 8.82912 534.965 8.74154 534.856 8.63129C534.746 8.52105 534.659 8.3903 534.6 8.24652C534.541 8.10273 534.511 7.94872 534.512 7.79329Z" fill="white"/>
-                      <path d="M536.03 3.00005C540.971 3.01625 545.03 7.07883 545.001 11.9856C544.999 13.1708 544.765 14.3441 544.31 15.4386C543.855 16.533 543.189 17.5272 542.35 18.3642C541.511 19.2013 540.515 19.8649 539.42 20.3171C538.324 20.7694 537.15 21.0014 535.965 21C531.02 21.009 526.978 16.9158 527.001 11.9208C527.022 9.54263 527.983 7.2694 529.675 5.59785C531.367 3.92631 533.652 2.99234 536.03 3.00005ZM536.071 4.70284C535.109 4.69356 534.155 4.87508 533.264 5.23689C532.373 5.5987 531.562 6.13363 530.879 6.81073C530.196 7.48783 529.654 8.29366 529.284 9.1816C528.915 10.0695 528.725 11.022 528.725 11.9838C528.68 15.96 531.98 19.2792 535.967 19.2882C536.928 19.2903 537.881 19.1021 538.769 18.7345C539.658 18.3668 540.465 17.8268 541.143 17.1458C541.822 16.4648 542.36 15.6562 542.724 14.7665C543.089 13.8768 543.274 12.9238 543.269 11.9622C543.246 7.97523 540.006 4.70824 536.071 4.70284Z" fill="white"/>
+            <div class="mb-betweencheckbox border-1 ">
+              <label class="flex SOFIAPROSOFTREGULAR text-white p-4 font-normal border-2 rounded border-checkbox ">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="white"/>
+                  <rect x="3" y="3" width="14" height="14" rx="2" fill="white"/>
+                  <path d="M6 10.8824L7.81818 13L14 7" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                </div>
+
+                  <p class="text-sm flex items-center pl-3 ">Logo imprint</p>
+              </label>
             </div>
 
-            <div class="mb-4 border-1 ">
-              <label class="block text-gray-500 p-3 font-bold border-2 rounded border-checkboxopacity hover:border-checkbox ">
-                <input class="mr-2 leading-tight" type="checkbox">
-                <span class="text-sm">
-                  Name imprint
-                </span>
+            <div class="mb-betweencheckbox border-1">
+              <label class="flex SOFIAPROSOFTREGULAR text-white p-4 font-normal border-2 rounded border-checkbox ">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="white"/>
+                  <rect x="3" y="3" width="14" height="14" rx="2" fill="white"/>
+                  <path d="M6 10.8824L7.81818 13L14 7" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  
+                  <p class="text-sm flex items-center pl-3 ">Name imprint</p>
                   
               </label>
             </div>
 
-            <div class="mb-20 border-1 border-red-600">
-              <label class="block text-gray-500 p-3 font-bold border-2 rounded border-checkboxopacity hover:border-checkbox ">
-                <input class="mr-2 leading-tight" type="checkbox">
-                <span class="text-sm">
-                  Anti-fog coating
-                </span>
+            <div class="mb-calculateoffet-top border-1 ">
+              <label class="flex justify-between SOFIAPROSOFTREGULAR text-white p-4 font-normal border rounded border-checkboxopacity ">
+                <div class="flex justify">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="19" height="19" rx="3.5" stroke="white"/>
+                </svg>
+
+                <p class="text-sm flex items-center pl-3 ">Anti-fog coating</p>
+              </div>
+                <div class="flex justify-end"> 
+                  <p class="text-opacityformtext Bebas-Neue-Bold font-bold bg-form px-4 ">
+                    2.310 Pcs
+                  </p>
+                </div>
               </label>
             </div>
           </div>
 
+
+          <!-- DOROBIŤ PCS -->
+          <!-- DOROBIŤ PCS -->
+          <!-- DOROBIŤ PCS -->
+          <!-- DOROBIŤ PCS -->
+          <!-- DOROBIŤ PCS -->
+          <!-- DOROBIŤ PCS -->
 
 
 
@@ -252,11 +252,8 @@
 
         </div>
 
-          </div>
 
-          <h3 class="w-business h-5 text-white uppercase tracking-business text-lg SOFIAPROSOFTREGULAR ml-2">Business</h3>
-
-          <div class="flex justify-between bigcookie">
+          <div class="flex justify-between bigcookie hidden">
               
               <div class="w-11/12 mt-5 pr-maintexthere">
                   <div class="mt-16 mb-headline">
@@ -435,11 +432,33 @@
                   </li>
               </ul>
           </nav>
+
+          <div class="hidden z-10 mx-5 fixed bottom-0 bg-black rounded-xl pt-12 border border-white border-opacity-20">
+            <div class="mx-10">
+              <h1 class="SOFIAPROSOFTREGULAR text-center text-lg text-white" style="font-weight: normal;">
+                We use cookies to help improve personalization of content. <a href="#" class="underline">Learn more</a>
+              </h1>
+              <button class="absolute right-0 top-0 " >
+                <svg class="mx-10 mt-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 7L17 17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M17 7L7 17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>                
+              </button>
+            </div>
+                
+                <div class=" text-center">
+                  <button class="bg-checkbox text-black font-bold py-3 px-32 rounded-xl focus:outline-none focus:shadow-outline mt-3 mb-3 SOFIAPROSOFTBOLD text-xs" type="button">
+                    I AGREE
+                  </button>
+                </div>
+              </div>
+
           </div>
           <div class="text-footercolor pt-5 text-center">
               <h3 class="pt-3">Designed with ❤️ in Vienna</h3>
-              <h3 class="pt-3">© 2020 - The zero facemask. All rights reserved</h3>
+              <h3 class="pt-3 md:pb-5">© 2020 - The zero facemask. All rights reserved</h3>
           </div>
+    
       </div>
   </footer>
 

@@ -22,6 +22,7 @@ module.exports = {
         checkboxopacity:'rgba(202, 224, 148, 0.3)',
         arrow:'#535353',
         bordermain:'rgba(255, 255, 255, 0.08)',
+        arrow:'#A7A7AE',
       },
       fontfamily:{
         primary_font: ['Bebas-Neue-Bold'],
@@ -35,6 +36,10 @@ module.exports = {
         mainmd:'2.64rem',
         phonemain: '3.438rem',
         orderinformation:'0.813rem',
+        header:'12.15px',
+        leadingtext:'19.5px',
+        mediumleadingtext:'20px',
+        mediumbusiness:'18px',
       },
       spacing:{
         right: "50%",
@@ -50,7 +55,10 @@ module.exports = {
         minus:'-2',
       },
       lineHeight: {
-        confirmationText:'2.375rem'
+        confirmationText:'2.375rem',
+        header: '20px',
+        protection:'53px',
+        maintext:'29px',
       },
       maxWidth: {
         article:'36.25rem',
@@ -60,10 +68,12 @@ module.exports = {
         'business':'8.625rem',
         'contenttext':'478px',
         'footermenu':'346.81px',
+        'mediumprotection':'340px',
       },
       height:{
         'orderinformation':'13px',
         'contenttext':'233px',
+        'protection':'124px',
       },
       screens: {
         'none':'0px',
@@ -71,6 +81,15 @@ module.exports = {
       margin:{
         'headerMx':'8.125rem',
         'headline':'563px',
+        'business':'104px',
+        'business-bot':'26px',
+        'protection':'9px',
+        'leadingtextbetween':'29px',
+        'formularbottom':'95px',
+        'betweencheckbox':'16px',
+        'calculateoffet-top':'80px',
+        'mediumbusiness':'40px',
+        'mediumfromtop':'52px',
       },
       padding:{
         'maintexthere':'0.406rem',
@@ -82,6 +101,9 @@ module.exports = {
         'footermenu':'0.938rem',
         'footermenulast':'0.907rem',
         'zerofooter':'28.54px',
+      },
+      boxShadow:{
+        special: '10 25px 25px 10px rgba(255, 255, 255, 0.9), 5 12px 12px 5px rgba(255, 255, 255, 0.6)',
       },
     },
   },
