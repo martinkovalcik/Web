@@ -35,6 +35,7 @@ module.exports = {
         business: '0.44em',
         article:'2.375rem',
         confirmation:'0.44em',
+        /* order page */
       },
       fontSize: {
         main: '5.375rem',
@@ -51,6 +52,26 @@ module.exports = {
         confirmation:'12px',
         confirmationorder:'55px',
         confirmationordertext:'18px',
+        
+        
+        /* order page */
+        '24':'24px',
+        '23':'23px',
+        '22':'22px',
+        '21':'21px',
+        '20':'20px',
+        '19':'19px',
+        '18':'18px',
+        '17':'17px',
+        '16':'16px',
+        '15':'15px',
+        '14':'14px',
+        '13':'13px',
+        '12':'12px',
+        '11':'11px',
+        '10':'10px',
+        '9':'9px',
+        '8':'8px',
       },
       spacing:{
         right: "50%",
@@ -74,10 +95,37 @@ module.exports = {
         largemaintext:'38.4px',
         largecookie:'17.28px',
         confirmation:'20px',
+        /* order page */
+
+        '29':'29px',
+        '28':'28px',
+        '27':'27px',
+        '26':'26px',
+        '25':'25px',
+        '24':'24px',
+        '23':'23px',
+        '22':'22px',
+        '21':'21px',
+        '20':'20px',
+        '19':'19px',
+        '18':'18px',
+        '17':'17px',
+        '16':'16px',
+        '15':'15px',
+        '14':'14px',
+        '13':'13px',
+        '12':'12px',
+        '11':'11px',
+        '10':'10px',
+        '9':'9px',
+        '8':'8px',
+        
+
       },
       maxWidth: {
         article:'36.25rem',
         confirmation:'30rem',
+        /* order page */
       },
       width:{
         'business':'8.625rem',
@@ -102,6 +150,12 @@ module.exports = {
         'mediumconfirmationorder':'577px',
         'mediumtextcenter':'580px',
         'largetextcenter':'480px',
+        /* order page */
+        'overview':'188px',
+        'formular-pcs':'212px',
+        'quantity':'300px',
+        'Item':'200px',
+        
       },
       height:{
         'orderinformation':'13px',
@@ -124,6 +178,30 @@ module.exports = {
         'confirmationorder':'176px',
         'mediumtextcenter':'154px',
         'mediumtextcentershipping':'16px',
+
+        /* order page */
+        'quantity':'17px',
+        '27':'27px',
+        '26':'26px',
+        '25':'25px',
+        '24':'24px',
+        '23':'23px',
+        '22':'22px',
+        '21':'21px',
+        '20':'20px',
+        '19':'19px',
+        '18':'18px',
+        '17':'17px',
+        '16':'16px',
+        '15':'15px',
+        '14':'14px',
+        '13':'13px',
+        '12':'12px',
+        '11':'11px',
+        '10':'10px',
+        '9':'9px',
+        '8':'8px',
+        
       },
       screens: {
         'none':'0px',
@@ -149,6 +227,36 @@ module.exports = {
         'largelogo':'-35px',
         'mdfcontext':'56px',
         'mdoverview':'71px',
+
+        /* order page */
+        'marginfromtop':'104px',
+        'arrow-overview':'18px',
+        'arrow':'11px',
+        'order-top':'26px',
+
+        '27':'27px',
+        '26':'26px',
+        '25':'25px',
+        '24':'24px',
+        '23':'23px',
+        '22':'22px',
+        '21':'21px',
+        '20':'20px',
+        '19':'19px',
+        '18':'18px',
+        '17':'17px',
+        '16':'16px',
+        '15':'15px',
+        '14':'14px',
+        '13':'13px',
+        '12':'12px',
+        '11':'11px',
+        '10':'10px',
+        '9':'9px',
+        '8':'8px',
+
+
+
       },
       padding:{
         'maintexthere':'0.406rem',
@@ -160,6 +268,29 @@ module.exports = {
         'footermenu':'0.938rem',
         'footermenulast':'0.907rem',
         'zerofooter':'28.54px',
+
+        /* order page */
+
+        '27':'27px',
+        '26':'26px',
+        '25':'25px',
+        '24':'24px',
+        '23':'23px',
+        '22':'22px',
+        '21':'21px',
+        '20':'20px',
+        '19':'19px',
+        '18':'18px',
+        '17':'17px',
+        '16':'16px',
+        '15':'15px',
+        '14':'14px',
+        '13':'13px',
+        '12':'12px',
+        '11':'11px',
+        '10':'10px',
+        '9':'9px',
+        '8':'8px',
       },
       boxShadow:{
         special: '10 25px 25px 10px rgba(255, 255, 255, 0.9), 5 12px 12px 5px rgba(255, 255, 255, 0.6)',

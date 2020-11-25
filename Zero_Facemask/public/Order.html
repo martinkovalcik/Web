@@ -6,193 +6,105 @@
     <title>Zero Mask - Homepage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gradient-to-b from-black via-black to-bgcolor ">
-
-  <script>
-
-    function myFunction() {
-      var x = document.getElementById("toogle");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-
-    function cookieFunction() {
-      var x = document.getElementById("cookie");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-
-    function cookiesmallFunction() {
-      var x = document.getElementById("cookie-small");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-    
-    </script>
-    
+<body class="bg-gradient-to-b from-black to-bgcolor md:bg-gradient-to-b md:from-black md:via-black md:to-bgcolor">
 
 
+  <div class="ml-smallleft mr-smallright mt-5 md:w-mediumset md:mx-auto xl:w-largeset"><!-- content wrapper -->
 
 
-    <div id="cookie-small" class="smallcookie">
+    <div class="bg-white rounded-xl flex justify-between items-center p-button">  
 
-      <div class="z-10 w-screen fixed bottom-0 bg-black rounded-xl pt-16">
-        <div class="mx-20">
-          <h1 class="SOFIAPROSOFTREGULAR text-center text-lg text-white" style="font-weight: normal;">
-            We use cookies to help improve personalization of content. <a href="#" class="underline">Learn more</a>
-          </h1>
-          <button onclick="cookiesmallFunction()" class="absolute right-0 top-0 " >
-            <svg class="mx-10 mt-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 7L17 17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M17 7L7 17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-              </svg>                
-          </button>
-        </div>
-            
-            <div class=" text-center">
-              <button onclick="cookiesmallFunction()" class="bg-checkbox text-black font-bold py-3 px-20 rounded-xl focus:outline-none focus:shadow-outline mt-3 mb-3 SOFIAPROSOFTBOLD text-xs" type="button">
-                I AGREE
-              </button>
-            </div>
-          </div>
-        </div>
-
-
-        <div id="cookie" class="bigcookie">
-        <div class="z-10 w-screen fixed bottom-0 bg-black rounded-xl flex">
-          <div class="w-8/12 p-5 text-white flex justify-start">
-            <h1 class="SOFIAPROSOFTREGULAR px-2" style="font-weight: normal;">
-              We use cookies to help improve personalization of content. <a href="#" class="underline">Learn more</a>
-            </h1>
-          </div>
-    
-    
-          <div class="flex justify-end">
-            <div class="">
-              <button onclick="cookieFunction()" class="bg-checkbox text-black font-bold py-3 px-16 lg:px-24 rounded-xl focus:outline-none focus:shadow-outline mt-3 mb-3 SOFIAPROSOFTREGULAR text-xs" type="button">
-                I AGREE
-              </button>
-            <button onclick="cookieFunction()" class="absolute right-0 top-10 " >
-              <svg class="mx-10 mt-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 7L17 17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-                <path d="M17 7L7 17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-                </svg>                
-            </button>
-        </div>
-        </div>
-        </div>
+      <div class="flex justify-start">
+        <a href="">
+          <img class="ml-2" src="/img/Zero_Logo_Black.png" alt="">
+        </a>
       </div>
 
+      <div class="flex justify-end mr-1">
+          <div class="mr-3 md:mr-6 flex items-center">
+            <a href="#" class="flex mr-1 uppercase SOFIAPROSOFTBOLD underline text-header leading-header">
+              EN
 
+              
+            </a>
 
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.6665 0.999349L5.99984 5.66602L1.33317 0.999349" stroke="#A7A7AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              
+                          
 
+      </div>   
+          <a href="" class="SOFIAPROSOFTBOLD underline text-header leading-header">
+            For costumers
+          </a>
+      </div>
 
-
-
-
-
-
-        <div class="mx-2 mt-5 sm:mx-16 "><!-- content wrapper -->
-
-
-          <div class="bg-white rounded-xl flex justify-between p-2">  
-            <div class="">
-              <a href="">
-                <img class="absolute left-50 mt-1" src="/img/Zero_Logo_Black.png" alt="">
-              </a>
-            </div>
-            <div class="flex justify-end mr-2">
-                <div class="">
-                <button onclick="myFunction()" class="uppercase SOFIAPROSOFTBOLD underline" >
-                    en
-                </button>
-                <button onclick="myFunction()" class="" >
-                        <svg class=" mr-2" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.6665 0.999349L5.99984 5.66602L1.33317 0.999349" stroke="#A7A7AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                </button>
-            </div>   
-                <a href=""><h1 class="SOFIAPROSOFTBOLD underline ">For costumers</h1></a>
-            </div>
-        </div>
-
-        <div id="toogle" class="hidden">
-            <div class="absolute right-0 rounded-lg mr-32 mt-2 w-48 h-32 text-left bg-white">
-                <div class="mx-8 my-8">
-                    <a href=""><h1 class="pb-3 SOFIAPROSOFTREGULAR hover:underline" >English</h1></a>
-                    <a href=""><h1 class="SOFIAPROSOFTREGULAR hover:underline">Deutsch</h1></a>
-                </div>
-            </div>
-          </div>
+  </div>
         
 
-        <main class="mt-40">
+        <main class="mt-marginfromtop">
         
-          <div class="mb-20">
-            <div class="flex order-2">
-                <div class="pt-1">
-                <a href="">
-                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="flex items-center">
+                <div class="ml-arrow">
+                <a href="#">
+                <svg class="" width="16" height="12" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.82369 1.05825L0.459726 7.75582C0.0692024 8.16682 0.0692024 8.83318 0.459726 9.24417L6.82369 15.9418C7.21421 16.3527 7.84737 16.3527 8.2379 15.9418C8.62842 15.5308 8.62842 14.8644 8.2379 14.4534L3.58105 9.55242L19.8335 9.55242C20.3858 9.55242 20.8335 9.08124 20.8335 8.5C20.8335 7.91876 20.3858 7.44758 19.8335 7.44758L3.58105 7.44758L8.2379 2.5466C8.62842 2.1356 8.62842 1.46924 8.2379 1.05825C7.84737 0.647251 7.21421 0.647251 6.82369 1.05825Z" fill="white"/>
                 </svg>
                 </a>
                 </div>
-                <div class="ml-5 mb-20">
-                    <a href="#" class="SOFIAPROSOFTREGULAR text-white tracking-business text-lg uppercase" >BACK TO OVERVIEW</a>
+                <div class="ml-arrow-overview">
+                    <a href="#" class="h-confirmation w-overview SOFIAPROSOFTREGULAR text-white tracking-business text-confirmation uppercase font-bold leading-confirmation" >BACK TO OVERVIEW</a>
                 </div> 
             </div>
 
-            <div class="">
-              <h3 class="text-white uppercase Bebas-Neue-Bold text-main text-left SOFIAPROSOFTBOLD leading-none z-10 relative ml-2 mb-10">your order</h3>
-          </div>
+            <div class="mt-order-top mb-16">
+              <h3 class="text-white uppercase Bebas-Neue-Bold text-confirmationorder text-left SOFIAPROSOFTBOLD leading-none z-10 relative ">your order</h3>
 
         </div>
           
-        <div class="smallcookie">
+        <div class="">
 
-          <div class="w-full mr-5 border border-checkbox rounded-sm p-3">
-            <div class="flex justify-between pt-10  border-b border-opacitycolor">
-              <h1 class="text-white justify-start ml-4 mt-10 md:mt-10 SOFIAPROSOFTREGULAR text-lg" style="font-weight: normal;">Quantity</h1>
-            <h1 class="text-white justify-end mr-4 capitalize Bebas-Neue-Bold text-phonemain ">3 340 Pcs</h1>
+          <div class="w-full border border-checkbox rounded-sm ">
+
+            <div class="flex justify-between py-10  border-b border-opacitycolor mb-4">
+              <div class="flex justify-start w-quantity h-quantity">
+                <h1 class="flex justify-start text-white ml-4 mt-10 SOFIAPROSOFTREGULAR text-16 font-normal ">Quantity</h1>
+              </div>
+
+              <div class="flex justify-end">
+                <h1 class="text-white flex justify-end mr-4 capitalize Bebas-Neue-Bold text-confirmationorder w-formular-pcs h-largecookiebutton">3 340 Pcs</h1>
+              </div>
             </div>
-            <table class="table-auto">
-              <tbody class="text-white">
-                <tr class="text-sm SOFIAPROSOFTREGULAR">
-                  <td class="px-4 py-6" >Item</td>
-                  <td class="px-4 py-6">Net per unit</td>
-                  <td class="px-4 py-6">Line total</td>
-                </tr>
-                <tr class="hover:bg-bordermain rounded-sm">
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-lg" style="font-weight: normal;">Mask</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl ">6,70 €</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl">22 378,00 €</td>
-                </tr>
-                <tr class="hover:bg-bordermain rounded-sm">
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-lg" style="font-weight: normal;">Logo Imprint</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl">6,70 €</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl">22 378,00 €</td>
-                </tr>
-                <tr class="hover:bg-bordermain rounded-sm">
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-lg opacity-25 line-through" style="font-weight: normal;">Name imprint</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl opacity-25 line-through">0,70 €</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl opacity-25 line-through">2 338,00 €</td>
-                </tr>
-                <tr class="hover:bg-bordermain rounded-sm">
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-lg opacity-25 line-through" style="font-weight: normal;">Anti fog spray</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl opacity-25 line-through">0,40 €</td>
-                  <td class="px-4 py-2 SOFIAPROSOFTREGULAR text-2xl opacity-25 line-through">1 336,00 €</td>
-                </tr>
-              </tbody>
-            </table>
+
+            <div class="flex justify-between mx-15 mb-16">
+              <div class="justify-start text-white">Item</div>
+              <div class="justify-end text-white">Net per unit</div>
+              <div class="justify-start text-white">Line total</div>
+            </div> 
+
+            <div class="flex justify-around mx-15 ">
+              <div class="justify-start text-white text-16">
+                <h1>
+                  Mask
+                </h1>
+              </div>
+              <div class="justify-end text-white">
+                  <h1>
+                    6.70€
+                  </h1>
+              </div>
+              <div class="justify-start text-white">
+                <h1>
+                  22378.00 €
+                </h1>
+              </div>
+            </div>
+ 
+
+
+
+            
 
             <div class="flex justify-between pt-16">
               <h1 class="text-white justify-start ml-4 mt-0 md:mt-1 SOFIAPROSOFTREGULAR text-lg" style="font-weight: normal;">Subtotal</h1>
@@ -323,7 +235,7 @@
         </div>
 
 
-            <div class="flex justify-between bigcookie">
+            <div class="flex justify-between bigcookie hidden">
                 <div class="w-full mr-5 border border-checkbox rounded-sm p-3">
                   <div class="flex justify-between pt-10  border-b border-opacitycolor">
                     <h1 class="text-white justify-start ml-4 mt-0 md:mt-10 SOFIAPROSOFTREGULAR text-sm md:text-lg" style="font-weight: normal;">Quantity</h1>
