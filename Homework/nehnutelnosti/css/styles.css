@@ -1,0 +1,147 @@
+*,
+html {
+  margin: 0;
+  background-origin: 0;
+  width: auto;
+  height: auto;
+  font-weight: 400;
+}
+
+body {
+}
+
+strong {
+  color: #cc1632;
+  font-weight: 400;
+}
+
+.center {
+  padding: 0 15px 0 15px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+a {
+  font-weight: 100;
+  text-decoration: none;
+  color: #3c7fcd;
+}
+
+header {
+  height: auto;
+  background-color: #cc1632;
+}
+
+.logo {
+  width: 200px;
+  height: 26.08px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0 8px 0;
+  margin: 0 10px 0 10px;
+}
+
+.button {
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 0.5rem 0.7rem;
+  font-size: 12px;
+  text-transform: capitalize;
+  display: block;
+  cursor: pointer;
+}
+
+.button a {
+  font-weight: 400;
+  color: white;
+}
+
+.button-search {
+  background-color: #cc1632;
+  color: white;
+  text-align: center;
+  padding: 11.9px 14px;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+
+.headline {
+  padding: 16px 0 24px 0;
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 6px 27px 6px 12px;
+  border: solid 2px #dadbe5;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.inputs-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.advanced-filter {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.inputik {
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: -1.2px;
+  background-image: url(../img/icon-location.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+select {
+  height: 44px;
+  padding: 0 12px;
+  border: solid 2px #dadbe5;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+label {
+  font-weight: 700;
+}
+
+.video-text {
+  font-weight: 700;
+  margin-left: 8px;
+}
