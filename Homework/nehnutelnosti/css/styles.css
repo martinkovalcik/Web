@@ -31,7 +31,9 @@ a {
 
 header {
   height: auto;
+  width: 100%;
   background-color: #cc1632;
+  position: fixed;
 }
 
 .logo {
@@ -48,10 +50,19 @@ header {
   margin: 0 10px 0 10px;
 }
 
+.menu-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.turn-off {
+  display: none;
+}
+
 .button {
   border: 1px solid white;
   border-radius: 3px;
-  padding: 0.5rem 0.7rem;
+  padding: 8px 11.2px;
   font-size: 12px;
   text-transform: capitalize;
   display: block;
@@ -73,6 +84,7 @@ header {
 }
 
 .headline {
+  margin-top: 49px;
   padding: 16px 0 24px 0;
   font-size: 0.82rem;
   text-align: center;
@@ -144,4 +156,77 @@ label {
 .video-text {
   font-weight: 700;
   margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    padding: 48px 0 48px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  section {
+    background-color: #f9f9f9;
+    border: 1px solid #dadbe5;
+    border-radius: 3px;
+    padding: 16px;
+  }
+  .horizontal-tablet {
+    width: 100%;
+    display: flex;
+    flex-grow: 2;
+  }
+
+  .inputs-vertical-tablet {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inputs-vertical-tablet:first-child {
+    padding-right: 15px;
+  }
+  .inputs-vertical-tablet:last-child {
+    padding-left: 15px;
+  }
+
+  .turn-off {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 21px;
+  }
+  .turn-off a {
+    color: white;
+    font-size: 12px;
+    padding-right: 5px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  .video-text {
+    font-size: 15px;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+
+  .bottom .turn-off a {
+    color: #3c7fcd;
+    font-weight: 100;
+    font-size: 16px;
+  }
+
+  .bottom .turn-off a:first-child {
+    padding-left: 16px;
+  }
+
+  .filter-right {
+    padding-right: 16px;
+  }
 }
